@@ -1,0 +1,107 @@
+{
+  "note": "This file is populated/refreshed by scripts/fetch_scholarships.py, which reads official RSS feeds (not scraped HTML) and appends new items. The two entries below are real seed examples pulled from those feeds so the app has something to render before you run the fetch script yourself.",
+  "last_updated": "2026-10-04",
+  "scholarships": [
+    {
+      "id": "mtn-pan-african-journalism-2026",
+      "title": "MTN Pan-African Journalism Programme",
+      "link": "https://www.bizcommunity.com/article/2026-applications-open-for-mtns-pan-african-journalism-programme-958934a",
+      "source": "bizcommunity.com (Nigeria bursaries/scholarships RSS feed)",
+      "published_date": "2026-06-09",
+      "field_tags": [
+        "journalism",
+        "media",
+        "writing"
+      ],
+      "region": "Pan-African",
+      "deadline": null,
+      "amount": null,
+      "note_to_reviewer": "Deadline and amount were not in the RSS title — click through to the link to confirm before showing this to students, or let the Featherless enrichment step pull these fields from the article page."
+    },
+    {
+      "id": "african-scientists-invited-to-apply-for-150k-jennifer-ward-oppenheimer-research-",
+      "title": "African scientists invited to apply for $150k Jennifer Ward Oppenheimer Research Grant",
+      "link": "https://www.bizcommunity.com/article/african-scientists-invited-to-apply-for-150000-jennifer-ward-oppenheimer-research-grant-511980a",
+      "source": "https://www.bizcommunity.com/rss/157/853.html",
+      "published_date": "Mon, 23 Mar 2026 13:48:00 +0200",
+      "field_tags": [
+        "general"
+      ],
+      "region": "Africa",
+      "deadline": null,
+      "amount": null,
+      "note_to_reviewer": "Auto-fetched from RSS title only — deadline/amount need enrichment (Featherless call or manual check) before showing to students."
+    },
+    {
+      "id": "partnership-to-empower-students-to-boost-nigerian-entrepreneurship",
+      "title": "Partnership to empower students to boost Nigerian entrepreneurship",
+      "link": "https://www.bizcommunity.com/article/partnership-to-empower-students-to-boost-nigerian-entrepreneurship-394248a",
+      "source": "https://www.bizcommunity.com/rss/157/853.html",
+      "published_date": "Tue, 23 Dec 2025 09:00:00 +0200",
+      "field_tags": [
+        "business",
+        "arts"
+      ],
+      "region": "Africa",
+      "deadline": null,
+      "amount": null,
+      "note_to_reviewer": "Auto-fetched from RSS title only — deadline/amount need enrichment (Featherless call or manual check) before showing to students."
+    },
+    {
+      "id": "netflix-scholarship-applications-open-for-west-and-central-africa",
+      "title": "Netflix scholarship applications open for West and Central Africa",
+      "link": "https://www.bizcommunity.com/Article/412/853/230810.html",
+      "source": "https://www.bizcommunity.com/rss/157/853.html",
+      "published_date": "Tue, 23 Aug 2022 11:32:00 +0200",
+      "field_tags": [
+        "general"
+      ],
+      "region": "Africa",
+      "deadline": null,
+      "amount": null,
+      "note_to_reviewer": "Auto-fetched from RSS title only — deadline/amount need enrichment (Featherless call or manual check) before showing to students."
+    },
+    {
+      "id": "african-researchers-invited-to-apply-for-jwo-research-grant",
+      "title": "African researchers invited to apply for JWO Research Grant",
+      "link": "https://www.bizcommunity.africa/Article/410/853/216479.html",
+      "source": "https://www.bizcommunity.com/rss/157/853.html",
+      "published_date": "Wed, 02 Jun 2021 12:16:00 +0200",
+      "field_tags": [
+        "general"
+      ],
+      "region": "Africa",
+      "deadline": null,
+      "amount": null,
+      "note_to_reviewer": "Auto-fetched from RSS title only — deadline/amount need enrichment (Featherless call or manual check) before showing to students."
+    },
+    {
+      "id": "last-chance-to-apply-for-the-2021-global-citizen-fellowship-program-powered-by-b",
+      "title": "Last chance to apply for the 2021 Global Citizen Fellowship Program powered by Beyoncé's BeyGood!",
+      "link": "https://www.bizcommunity.com/Article/196/853/216033.html",
+      "source": "https://www.bizcommunity.com/rss/157/853.html",
+      "published_date": "Thu, 20 May 2021 11:53:00 +0200",
+      "field_tags": [
+        "general"
+      ],
+      "region": "Africa",
+      "deadline": null,
+      "amount": null,
+      "note_to_reviewer": "Auto-fetched from RSS title only — deadline/amount need enrichment (Featherless call or manual check) before showing to students."
+    },
+    {
+      "id": "malaysian-scholarships-available-to-commonwealth-students",
+      "title": "Malaysian scholarships available to Commonwealth students",
+      "link": "https://www.bizcommunity.com/Article/196/853/200759.html",
+      "source": "https://www.bizcommunity.com/rss/157/853.html",
+      "published_date": "Mon, 17 Feb 2020 21:11:00 +0200",
+      "field_tags": [
+        "general"
+      ],
+      "region": "Africa",
+      "deadline": null,
+      "amount": null,
+      "note_to_reviewer": "Auto-fetched from RSS title only — deadline/amount need enrichment (Featherless call or manual check) before showing to students."
+    }
+  ]
+}

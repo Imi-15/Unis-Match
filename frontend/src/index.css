@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Keep focus outlines visible everywhere -- do not let Tailwind's reset
+   or any component style remove these. Screen-reader/keyboard users rely
+   on this to know where they are on the page. */
+:focus-visible {
+  outline: 2px solid #16a34a;
+  outline-offset: 2px;
+}

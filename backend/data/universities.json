@@ -1,0 +1,1631 @@
+{
+  "source": "JAMB 2026 Policy Meeting cutoffs, as compiled by schoolngr.com (updated May 12, 2026): https://www.schoolngr.com/news/minimum-tolerable-utme-scores-for-institutions",
+  "note": "This is 117 Nigerian universities with specific reported 2026 minimum cutoff marks -- a much broader set than an earlier 45-institution version, but still NOT all 270+ universities in Nigeria (NUC counts roughly 50 federal, 60+ state, 147+ private). ownership is inferred from naming patterns, not individually verified. culture_tags and strong_fields are illustrative -- a mix of hand-picked knowledge for well-known institutions and simple keyword-based guesses for the rest (see build_universities.py logic). Review and refine before treating either field as authoritative.",
+  "last_updated": "2026-05-12",
+  "universities": [
+    {
+      "name": "Pan-Atlantic University",
+      "state": "Lagos",
+      "ownership": "Private",
+      "cutoff_mark": 220,
+      "culture_tags": [
+        "structured",
+        "small_class",
+        "career_focused"
+      ],
+      "strong_fields": [
+        "business",
+        "media",
+        "law"
+      ]
+    },
+    {
+      "name": "Air Force Institute of Technology",
+      "state": "Kaduna",
+      "ownership": "Federal",
+      "cutoff_mark": 200,
+      "culture_tags": [
+        "strict",
+        "structured",
+        "disciplined",
+        "tech_focused"
+      ],
+      "strong_fields": [
+        "engineering",
+        "technology"
+      ]
+    },
+    {
+      "name": "Covenant University",
+      "state": "Ogun",
+      "ownership": "Private",
+      "cutoff_mark": 200,
+      "culture_tags": [
+        "strict",
+        "structured",
+        "faith_based"
+      ],
+      "strong_fields": [
+        "engineering",
+        "business",
+        "technology"
+      ]
+    },
+    {
+      "name": "Federal University of Medicine and Medical Sciences",
+      "state": "Ogun",
+      "ownership": "Federal",
+      "cutoff_mark": 200,
+      "culture_tags": [
+        "specialized",
+        "research_focused"
+      ],
+      "strong_fields": [
+        "medicine",
+        "health_sciences"
+      ]
+    },
+    {
+      "name": "Obafemi Awolowo University",
+      "state": "Osun",
+      "ownership": "Federal",
+      "cutoff_mark": 200,
+      "culture_tags": [
+        "diverse",
+        "community",
+        "vibrant"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences",
+        "law",
+        "agriculture"
+      ]
+    },
+    {
+      "name": "University of Benin",
+      "state": "Edo",
+      "ownership": "Federal",
+      "cutoff_mark": 200,
+      "culture_tags": [
+        "diverse"
+      ],
+      "strong_fields": [
+        "engineering",
+        "medicine",
+        "arts"
+      ]
+    },
+    {
+      "name": "University of Ibadan",
+      "state": "Oyo",
+      "ownership": "Federal",
+      "cutoff_mark": 200,
+      "culture_tags": [
+        "diverse",
+        "research_focused",
+        "prestigious"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences",
+        "medicine",
+        "agriculture"
+      ]
+    },
+    {
+      "name": "University of Lagos",
+      "state": "Lagos",
+      "ownership": "Federal",
+      "cutoff_mark": 200,
+      "culture_tags": [
+        "diverse",
+        "vibrant",
+        "urban"
+      ],
+      "strong_fields": [
+        "business",
+        "law",
+        "engineering",
+        "medicine"
+      ]
+    },
+    {
+      "name": "University of Nigeria, Nsukka",
+      "state": "Enugu",
+      "ownership": "Federal",
+      "cutoff_mark": 200,
+      "culture_tags": [
+        "diverse",
+        "community",
+        "vibrant"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences",
+        "engineering",
+        "agriculture"
+      ]
+    },
+    {
+      "name": "Lagos State University of Science and Technology",
+      "state": "Lagos",
+      "ownership": "State",
+      "cutoff_mark": 195,
+      "culture_tags": [
+        "tech_focused"
+      ],
+      "strong_fields": [
+        "engineering",
+        "technology"
+      ]
+    },
+    {
+      "name": "Lagos State University",
+      "state": "Lagos",
+      "ownership": "State",
+      "cutoff_mark": 195,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Lagos State University of Education",
+      "state": "Lagos",
+      "ownership": "State",
+      "cutoff_mark": 185,
+      "culture_tags": [
+        "structured"
+      ],
+      "strong_fields": [
+        "education"
+      ]
+    },
+    {
+      "name": "Afe Babalola University",
+      "state": "Ekiti",
+      "ownership": "Private",
+      "cutoff_mark": 180,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Ahmadu Bello University",
+      "state": "Kaduna",
+      "ownership": "Federal",
+      "cutoff_mark": 180,
+      "culture_tags": [
+        "diverse",
+        "community",
+        "exploratory"
+      ],
+      "strong_fields": [
+        "engineering",
+        "agriculture",
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "University of Ilorin",
+      "state": "Kwara",
+      "ownership": "Federal",
+      "cutoff_mark": 180,
+      "culture_tags": [
+        "diverse",
+        "disciplined",
+        "community"
+      ],
+      "strong_fields": [
+        "medicine",
+        "arts",
+        "sciences",
+        "agriculture"
+      ]
+    },
+    {
+      "name": "University of Jos",
+      "state": "Plateau",
+      "ownership": "Federal",
+      "cutoff_mark": 170,
+      "culture_tags": [
+        "diverse",
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences",
+        "medicine"
+      ]
+    },
+    {
+      "name": "Augustine University",
+      "state": "Lagos",
+      "ownership": "Private",
+      "cutoff_mark": 170,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Babcock University",
+      "state": "Ogun",
+      "ownership": "Private",
+      "cutoff_mark": 170,
+      "culture_tags": [
+        "strict",
+        "structured",
+        "quiet",
+        "faith_based"
+      ],
+      "strong_fields": [
+        "medicine",
+        "business",
+        "technology"
+      ]
+    },
+    {
+      "name": "Federal University of Applied Sciences",
+      "state": "Kaduna",
+      "ownership": "Federal",
+      "cutoff_mark": 170,
+      "culture_tags": [
+        "tech_focused"
+      ],
+      "strong_fields": [
+        "engineering",
+        "technology"
+      ]
+    },
+    {
+      "name": "Federal University, Lokoja",
+      "state": "Kogi",
+      "ownership": "Federal",
+      "cutoff_mark": 170,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Ladoke Akintola University of Technology",
+      "state": "Oyo",
+      "ownership": "State",
+      "cutoff_mark": 170,
+      "culture_tags": [
+        "tech_focused"
+      ],
+      "strong_fields": [
+        "engineering",
+        "technology"
+      ]
+    },
+    {
+      "name": "Nasarawa State University",
+      "state": "Nasarawa",
+      "ownership": "State",
+      "cutoff_mark": 170,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences",
+        "agriculture"
+      ]
+    },
+    {
+      "name": "Veritas University",
+      "state": "FCT",
+      "ownership": "Private",
+      "cutoff_mark": 170,
+      "culture_tags": [
+        "faith_based",
+        "structured"
+      ],
+      "strong_fields": [
+        "law",
+        "business",
+        "arts"
+      ]
+    },
+    {
+      "name": "Isaac Balami University of Aeronautics and Management",
+      "state": "Lagos",
+      "ownership": "Private",
+      "cutoff_mark": 160,
+      "culture_tags": [
+        "strict",
+        "structured",
+        "disciplined"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Karl Kumm University",
+      "state": "Plateau",
+      "ownership": "Private",
+      "cutoff_mark": 160,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Kwara State University",
+      "state": "Kwara",
+      "ownership": "State",
+      "cutoff_mark": 160,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Landmark University",
+      "state": "Kwara",
+      "ownership": "Private",
+      "cutoff_mark": 160,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Lead City University",
+      "state": "Oyo",
+      "ownership": "Private",
+      "cutoff_mark": 160,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Modibbo Adama University",
+      "state": "Adamawa",
+      "ownership": "State",
+      "cutoff_mark": 160,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Nnamdi Azikiwe University",
+      "state": "Anambra",
+      "ownership": "Federal",
+      "cutoff_mark": 160,
+      "culture_tags": [
+        "diverse"
+      ],
+      "strong_fields": [
+        "engineering",
+        "medicine",
+        "arts"
+      ]
+    },
+    {
+      "name": "Olabisi Onabanjo University",
+      "state": "Ogun",
+      "ownership": "State",
+      "cutoff_mark": 160,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Osun State University",
+      "state": "Osun",
+      "ownership": "State",
+      "cutoff_mark": 160,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Plateau State University",
+      "state": "Plateau",
+      "ownership": "State",
+      "cutoff_mark": 160,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Redeemer's University",
+      "state": "Osun",
+      "ownership": "Private",
+      "cutoff_mark": 160,
+      "culture_tags": [
+        "strict",
+        "faith_based",
+        "structured"
+      ],
+      "strong_fields": [
+        "business",
+        "sciences",
+        "arts"
+      ]
+    },
+    {
+      "name": "Summit University",
+      "state": "Kwara",
+      "ownership": "Private",
+      "cutoff_mark": 160,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Tai Solarin University of Education",
+      "state": "Ogun",
+      "ownership": "State",
+      "cutoff_mark": 160,
+      "culture_tags": [
+        "structured"
+      ],
+      "strong_fields": [
+        "education"
+      ]
+    },
+    {
+      "name": "Taraba State College of Nursing and Midwifery",
+      "state": "Taraba",
+      "ownership": "Private",
+      "cutoff_mark": 160,
+      "culture_tags": [
+        "specialized",
+        "research_focused"
+      ],
+      "strong_fields": [
+        "medicine",
+        "health_sciences"
+      ]
+    },
+    {
+      "name": "University of Ilesa",
+      "state": "Osun",
+      "ownership": "Private",
+      "cutoff_mark": 160,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Abdulrazaq Abubakar Toyin University",
+      "state": "Kwara",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Adamawa State University",
+      "state": "Adamawa",
+      "ownership": "State",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Adeleke University",
+      "state": "Osun",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "African School of Economics",
+      "state": "FCT",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "African University of Science and Technology",
+      "state": "FCT",
+      "ownership": "Federal",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "tech_focused"
+      ],
+      "strong_fields": [
+        "engineering",
+        "technology"
+      ]
+    },
+    {
+      "name": "Akwa Ibom State University",
+      "state": "Akwa Ibom",
+      "ownership": "State",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Alex Ekwueme Federal University",
+      "state": "Ebonyi",
+      "ownership": "Federal",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Al-Hikmah University",
+      "state": "Kwara",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Alvan Ikoku Federal University of Education",
+      "state": "Imo",
+      "ownership": "Federal",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "structured"
+      ],
+      "strong_fields": [
+        "education"
+      ]
+    },
+    {
+      "name": "Anchor University",
+      "state": "Lagos",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Baze University",
+      "state": "FCT",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Bayelsa Medical University",
+      "state": "Bayelsa",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "specialized",
+        "research_focused"
+      ],
+      "strong_fields": [
+        "medicine",
+        "health_sciences"
+      ]
+    },
+    {
+      "name": "Benson Idahosa University",
+      "state": "Edo",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Borno State University",
+      "state": "Borno",
+      "ownership": "State",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Bowen University",
+      "state": "Osun",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Capital City University",
+      "state": "Kano",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Claretian University",
+      "state": "Imo",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Crescent University",
+      "state": "Ogun",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "David Umahi Federal University of Health Sciences",
+      "state": "Ebonyi",
+      "ownership": "Federal",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "specialized",
+        "research_focused"
+      ],
+      "strong_fields": [
+        "medicine",
+        "health_sciences"
+      ]
+    },
+    {
+      "name": "Dennis Osadebay University",
+      "state": "Delta",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Ebonyi State University",
+      "state": "Ebonyi",
+      "ownership": "State",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Edo State University",
+      "state": "Edo",
+      "ownership": "State",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Edusoko University",
+      "state": "Niger",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Ekiti State University",
+      "state": "Ekiti",
+      "ownership": "State",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Federal University, Wukari",
+      "state": "Taraba",
+      "ownership": "Federal",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Fountain University",
+      "state": "Osun",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Franco-British International University",
+      "state": "Kaduna",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Gerar University of Medical Sciences",
+      "state": "Ogun",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured",
+        "specialized",
+        "research_focused"
+      ],
+      "strong_fields": [
+        "medicine",
+        "health_sciences"
+      ]
+    },
+    {
+      "name": "Glorious Vision University",
+      "state": "Edo",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Gombe State University",
+      "state": "Gombe",
+      "ownership": "State",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Hallmark University",
+      "state": "Ogun",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Hillside University of Science and Technology",
+      "state": "Ekiti",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "tech_focused"
+      ],
+      "strong_fields": [
+        "engineering",
+        "technology"
+      ]
+    },
+    {
+      "name": "Ibrahim Badamasi Babangida University",
+      "state": "Niger",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Igbinedion University",
+      "state": "Edo",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Kadija University",
+      "state": "Jigawa",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Khalifa Isyaku Rabiu University",
+      "state": "Kano",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Kwara State University of Education",
+      "state": "Kwara",
+      "ownership": "State",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "structured"
+      ],
+      "strong_fields": [
+        "education"
+      ]
+    },
+    {
+      "name": "Kwararafa University",
+      "state": "Taraba",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Lighthouse University",
+      "state": "Edo",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Maduka University",
+      "state": "Enugu",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Maranatha University",
+      "state": "Lagos",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Maryam Abacha American University of Nigeria",
+      "state": "Kano",
+      "ownership": "Federal",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "McPherson University",
+      "state": "Ogun",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Monarch University",
+      "state": "Ogun",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Mountain Top University",
+      "state": "Ogun",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Niger Delta University",
+      "state": "Bayelsa",
+      "ownership": "State",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Nigerian Army University",
+      "state": "Borno",
+      "ownership": "Federal",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "strict",
+        "structured",
+        "disciplined"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Nile University of Nigeria",
+      "state": "FCT",
+      "ownership": "Federal",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Northwest University",
+      "state": "Kano",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Northwest University (Sokoto)",
+      "state": "Sokoto",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Oduduwa University",
+      "state": "Osun",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Ojaja University",
+      "state": "Kwara",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Peter University",
+      "state": "Anambra",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Precious Cornerstone University",
+      "state": "Oyo",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Prime University",
+      "state": "FCT",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Prince Abubakar Audu University",
+      "state": "Kogi",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Salem University",
+      "state": "Kogi",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Sokoto State University",
+      "state": "Sokoto",
+      "ownership": "State",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Southwestern University",
+      "state": "Ogun",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "State University of Medical and Applied Sciences",
+      "state": "Enugu",
+      "ownership": "State",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "tech_focused",
+        "specialized",
+        "research_focused"
+      ],
+      "strong_fields": [
+        "engineering",
+        "technology",
+        "medicine",
+        "health_sciences"
+      ]
+    },
+    {
+      "name": "Sule Lamido University",
+      "state": "Jigawa",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Tazkiyah University",
+      "state": "Kaduna",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Thomas Adewumi University",
+      "state": "Kwara",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Trinity University",
+      "state": "Lagos",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Umaru Musa Yar'adua University",
+      "state": "Katsina",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "University of Africa",
+      "state": "Bayelsa",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "University of Agriculture and Environmental Sciences",
+      "state": "Imo",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "specialized",
+        "research_focused"
+      ],
+      "strong_fields": [
+        "agriculture",
+        "sciences"
+      ]
+    },
+    {
+      "name": "University of Agriculture, Science and Technology",
+      "state": "Benue",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "tech_focused",
+        "specialized",
+        "research_focused"
+      ],
+      "strong_fields": [
+        "engineering",
+        "technology",
+        "agriculture",
+        "sciences"
+      ]
+    },
+    {
+      "name": "University of Cross River State",
+      "state": "Cross River",
+      "ownership": "State",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "University of Education and Entrepreneurship",
+      "state": "Cross River",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "structured"
+      ],
+      "strong_fields": [
+        "education"
+      ]
+    },
+    {
+      "name": "University of Maiduguri",
+      "state": "Borno",
+      "ownership": "Federal",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "University of Mkar",
+      "state": "Benue",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "University of Uyo",
+      "state": "Akwa Ibom",
+      "ownership": "Federal",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "University on the Niger",
+      "state": "Anambra",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Usmanu Danfodiyo University",
+      "state": "Sokoto",
+      "ownership": "Federal",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Venite University",
+      "state": "Ekiti",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Vision University",
+      "state": "Ogun",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Yobe State University",
+      "state": "Yobe",
+      "ownership": "State",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "community"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    },
+    {
+      "name": "Christopher University",
+      "state": "Ogun",
+      "ownership": "Private",
+      "cutoff_mark": 150,
+      "culture_tags": [
+        "faith_based",
+        "strict",
+        "structured"
+      ],
+      "strong_fields": [
+        "arts",
+        "sciences"
+      ]
+    }
+  ]
+}
