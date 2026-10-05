@@ -9,6 +9,7 @@ export default function Dashboard({ profile, initialTab = "universities", onRest
   const [tab, setTab] = useState(initialTab);
   const [matches, setMatches] = useState(null);
   const [scholarships, setScholarships] = useState(null);
+  const [scholarshipsError, setScholarshipsError] = useState(null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(profile !== null);
 
@@ -40,12 +41,16 @@ export default function Dashboard({ profile, initialTab = "universities", onRest
   }, [profile]);
 
   useEffect(() => {
-    if (tab === "scholarships" && scholarships === null) {
+    if (tab === "scholarships" && scholarships === null && scholarshipsError === null) {
       getScholarships()
         .then((result) => setScholarships(result.scholarships))
-        .catch(() => setScholarships([])); // fail quiet here -- university matches are the main feature
+        .catch((err) => setScholarshipsError(err.message));
+      // Previously this caught errors by silently setting an empty array,
+      // which made "the API call failed" look identical to "there's
+      // genuinely no scholarship data yet" -- impossible to tell apart
+      // from the UI, which is exactly the bug that prompted this fix.
     }
-  }, [tab, scholarships]);
+  }, [tab, scholarships, scholarshipsError]);
 
   return (
     <div className="max-w-md mx-auto p-4">
@@ -78,7 +83,7 @@ export default function Dashboard({ profile, initialTab = "universities", onRest
         />
       )}
 
-      {tab === "scholarships" && <ScholarshipsTab scholarships={scholarships} />}
+      {tab === "scholarships" && <ScholarshipsTab scholarships={scholarships} error={scholarshipsError} />}
     </div>
   );
 }
@@ -143,7 +148,18 @@ function UniversitiesTab({ profile, loading, error, matches, onRestart, onStartW
   return <div>{matches?.map((m) => <MatchCard key={m.university_name} match={m} />)}</div>;
 }
 
-function ScholarshipsTab({ scholarships }) {
+function ScholarshipsTab({ scholarships, error }) {
+  if (error) {
+    return (
+      <div className="text-sm text-red-700 bg-red-50 border border-red-200 rounded-lg p-3">
+        Couldn't reach the scholarships API: {error}
+        <br />
+        <span className="text-xs text-red-500">
+          Check VITE_API_BASE_URL and that the backend's CORS_ORIGINS includes this site.
+        </span>
+      </div>
+    );
+  }
   if (scholarships === null) return <p className="text-sm text-gray-500">Loading scholarships...</p>;
   if (scholarships.length === 0) return <p className="text-sm text-gray-500">No scholarships loaded yet.</p>;
 
